@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAAE DUAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Inicio de Sesión</h1>
+        <form id="login-form">
+            <label for="curp">CURP:</label>
+            <input type="text" id="curp" name="curp" required>
+            <br>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+            <br>
+            <button type="submit">Ingresar</button>
+        </form>
+        <p id="error-message" style="color: red; display: none;">CURP o Matrícula incorrectos. Inténtalo de nuevo.</p>
+    </div>
+
+    <div class="container" id="student-info" style="display: none;">
+        <h1>----------------HOLA_ALDO----------------</h1>
+        <h1>Información del Estudiante</h1>
+        <div class="accordion">
+            <h2 class="accordion-title">DATOS ESCOLARES</h2>
+            <div class="accordion-content">
+                <p><strong>Carrera:</strong> Informática</p>
+                <p><strong>Semestre:</strong> Cuarto Semestre</p>
+                <p><strong>Grupo de Origen:</strong> 407</p>
+                <p><strong>Grupo Dual:</strong> 411</p>
+                <p><strong>Correo institucional:</strong> asalazar2822@ver.conalep.edu.mx</p>
+                <p><strong>Matrícula:</strong> 221620239-6</p>
+                <p><strong>CURP:</strong> SAHA070528HVZLRLA2</p>
+            </div>
+        </div>
+        <div class="accordion">
+            <h2 class="accordion-title">Datos Personales</h2>
+            <div class="accordion-content">
+                <p><strong>Nombre:</strong> Aldo Salazar Huerta</p>
+                <p><strong>Edad:</strong> 17</p>
+                <p><strong>Correo:</strong> aldo.salazar280507@mail.com</p>
+                <p><strong>enfermedad o discapacidad:</strong> Ninguna</p>
+                <p><strong>Genero:</strong> Hombre</p>
+            </div>
+        </div>
+        <div class="accordion">
+            <h2 class="accordion-title">Calificaciones</h2>
+            <div class="accordion-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Asignatura</th>
+                            <th>Calificación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Matemáticas</td>
+                            <td>------8</td>
+                        </tr>
+                        <tr>
+                            <td>Historia</td>
+                            <td>------8</td>
+                        </tr>
+                        <tr>
+                            <td>Ciencias</td>
+                            <td>------9</td>
+                        </tr>
+                        <tr>
+                            <td>Fisica</td>
+                            <td>------10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
